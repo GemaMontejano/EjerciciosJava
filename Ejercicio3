@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		// 3.- Crear un método que le vaya pidiendo números al usuario hasta que introduzca el 0 y en ese momento salga y nos devuelva el mayor de los números que ha introducido.
+		    int num;
+		    int mayor=0;
+		    Scanner sc = new Scanner(System.in);
+		 
+		    System.out.println("Introduce un número: ");
+		    num = sc.nextInt();
+		    mayor=num;
+		    while (num!=0 ) {
+		    	System.out.println("Introduce otro número: ");
+		    	num= sc.nextInt();
+		    	}
+		    if (num>mayor){
+		    	mayor = num;
+		    	System.out.println("El número mayor es : "+mayor);
+		    
+		   }
+		    else {
+		    		System.out.println ("El número mayor es : "+mayor);
+		    }
+		    }
+	}
+	
+	
+//No sé cómo terminar la comparación si son más de dos números
