@@ -1,0 +1,17 @@
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		// 4.- Crear un método al que le pasemos tres números enteros y nos devuelva true si se los hemos pasado en orden de menor a mayor (ej: 4,9,20) y false si no es así
+	int numero1 = 8;
+		int numero2 = 39;
+		int numero3 = 24;
+		
+		static boolean estaOrdenado(int numero1,numero2,numero3) {
+			if (numero1<numero2) {
+		        if (numero2<numero3) {
+		        	return true;
+				} else {
+					return false;
+				}
+			}}
+		               
