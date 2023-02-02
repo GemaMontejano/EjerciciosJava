@@ -1,0 +1,25 @@
+	//1.- Crear un método 'esPar' al que le pasemos un número y nos diga si es par o impar.
+       //¿Qué tipo tendrá de entrada? ¿Qué tipo tendrá de salida?
+import java.util.Scanner;
+
+public class Ejercicio1Java {
+
+	public static void main(String[] args) {
+	}
+	static boolean esPar(int numero) {
+		if (numero % 2 == 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	static int mayorNumero() {
+		int numero;
+		Scanner sc = new Scanner(System.in);
+		System.out.println ("Dime un número");
+		numero = sc.nextInt();
+		sc.nextLine();
+		
+	}	
+		
+
