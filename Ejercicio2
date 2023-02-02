@@ -1,0 +1,12 @@
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		// 2.- Crear un método al que le pasemos un número entero y nos imprima el numero tantas veces como el mismo. Si le paso 3 nos imprime '3' tres veces, si le paso 10 nos imprime '10' diez veces. 
+int numero = 7;
+for (int i = 1; i <= 10; i++) {
+	   System.out.println(numero);
+	}
+	}
+
+}
